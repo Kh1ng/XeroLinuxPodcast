@@ -1,0 +1,19 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'XeroLinux Podcast Feed'
+theme = 'risotto'
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
